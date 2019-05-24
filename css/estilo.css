@@ -1,0 +1,96 @@
+/* Autor: Fco. Javier PÃ©rez PatrÃ³n
+Version: 1.0.0 */
+
+@import url('https://fonts.googleapis.com/css?family=Montaga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+/* le doy formato al body */
+
+body {
+    font-family: 'Montaga', serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* le cambio el tamaño de la fuente del mensaje de verificación */
+span {
+    font-size: 14px;
+}
+
+/* le doy formato al formulario */
+.forms {
+    width: 100%;
+    max-width: 680px;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 25px #4ca1af;
+    border-radius: 20px;
+    background-color: #c4e0e5;
+}
+
+
+.content {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.content h1 {
+    letter-spacing: 3px;
+}
+
+/* posiciono el formulario */
+.form-group {
+    width: 100%;
+    min-height: 70px;
+}
+
+/* posiciono las etiquetas de los campos */
+label {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+/* le doy formato a los input */
+input[type="text"],
+[type="number"],
+[type="email"] {
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    width: 50%;
+    border: 2px solid rgb(193, 238, 247);
+    border-radius: 40px;
+}
+
+input:focus {
+    border-color: #4ca1af;
+}
+
+input[type="submit"] {
+    background: #4ca1af;
+    width: 50%;
+    margin-top: 30px;
+    padding: 20px 0;
+    border-radius: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+/* posiciono el footer */
+footer{
+    text-align: center;
+    font-size: 12pt;
+}
